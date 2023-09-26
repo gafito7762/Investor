@@ -30,6 +30,7 @@
         "email": "user@mernboilerplate.com",
         "roleId": "",
         "roleAlias": "User",
-        "password": "mern-boilerplate"
+        "password": "mern-boilerplate",
+        "isActive": "true"
     }
 ]
