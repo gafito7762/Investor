@@ -1,19 +1,3 @@
-# Welcome to the RBAC MERN Boilerplate project
-
-### _A complete (Work in progress now) MERN boilerplate repository with RBAC feature, following all production best practices._
-
-In this repository I will keep adding the production best practices we should follow in a MERN (MongoDB, Express.js, React.js, and Node.js) project. Also for better UX I am using Antd Pro for the UI. May be later I will use MUI as well.
-
-Below are the sample of a sample list page:
-
-![Product List Page](./docs/images/product-list.png)
-
-![Product List Page](./docs/images/product-list-search.png)
-
-## Technology stack
-
-As the name suggests, this repository is built on top of Express.js and React.js, however in the implementation detail, we will find other supporting technologies as well.
-
 #### Client side
 
 - React - A JavaScript library for building user interfaces
@@ -75,9 +59,6 @@ It is expected that the machine must have docker and docker-compose installed. G
 
 The client and server both are up and running and we should see the following screen if we navigate to the client url.
 
-![Login screen](./docs/images/login-screen.png)
-
-
 - seed data
  Go inside of the docker container and execute below commands. These will seed the database with `roles`, `users` and `products` data.
 
@@ -86,14 +67,6 @@ The client and server both are up and running and we should see the following sc
   npm run db:seed
   npm run db:migrate
   ```
-
-  You should see the following output:
-  ![Product List Page](./docs/images/appserver-lsla.png)
-
-  ![Product List Page](./docs/images/appserver-db-seed-users.png)
-  
-  ![Product List Page](./docs/images/appserver-db-seed-products.png)
-
   You should be now login to the application and see the products list.
 
 ### Visual Studio Code
@@ -153,8 +126,6 @@ You should be able to see the username and password in the `/server/setup/users.
 ## Permission management ui 
 
 I have introduced a permission management ui for the application. Sample image is given below.
-
-  ![Product List Page](./docs/images/permission-manage-ui.png)
 
 
 ### Centralized log to `Sentry.io`
